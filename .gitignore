@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Docker Volumes & Local Storage
+uas_pg_data/
+uas_broker_data/
+uas_aggregator_data/
+pg_data/
+broker_data/
+aggregator_data/
+
+# IDEs & System
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# Project generated intermediate files
+report.html
+
+# Local agent config
+.antigravitycli/
+.gemini/
